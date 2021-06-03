@@ -54,8 +54,6 @@ public class Solution {
 
     private void prepareWordsList(){
         wordsInSentence = Arrays.stream(sentence.split(" ")).collect(Collectors.toCollection(ArrayList::new));
-
-        System.out.println(wordsInSentence.toString());
     }
 
     private void countKeyCharsOccurances(){
