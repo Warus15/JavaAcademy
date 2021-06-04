@@ -25,7 +25,7 @@ The output has following structure:
 
 [letters from key that appeared in group] [word length] [words in group] [rounded frequency] [exact result]
 
-Note, that if sentence doesn't contain any of key characters, it is not displayed.
+Note, that if sentence doesn't contain any of key characters, the only output is total frequency, which value is 0.0
 
 2. Assumptions
 
