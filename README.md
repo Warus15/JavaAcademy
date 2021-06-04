@@ -48,7 +48,7 @@ Main: class that creates instance of TechnicalTask class and calls task.execute(
 
 task.TechnicalTask: Class that is responsible for loading data file and creating instance of Solution class, to solve problem for each sentence in file.
 
-task.Solution: This class contains whole logic of project. It is responsible for dividing words into groups, gathering results and sending them back to main screen.
+task.Solution: This class contains whole logic of project. It is responsible for dividing words into groups, gathering results and displaying them.
 
 task.WordGroup: Class that represents group of words.
 
