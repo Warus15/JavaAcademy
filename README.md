@@ -25,6 +25,8 @@ The output has following structure:
 
 [letters from key that appeared in group] [word length] [words in group] [rounded frequency] [exact result]
 
+Note, that if sentence doesn't contain any of key characters, it is not displayed.
+
 2. Assumptions
 
 Algorithm uses text file to get data. Data.txt is located in src/task. The data.txt file has following structure:
