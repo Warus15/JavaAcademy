@@ -1,0 +1,3 @@
+logic
+I love to work in global Logic!
+This is sample sentence so that algorithm has 2 outputs.
