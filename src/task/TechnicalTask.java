@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.Scanner;
 
+//class that initialize project
 public class TechnicalTask {
 
     private Scanner scanner;
@@ -20,6 +21,8 @@ public class TechnicalTask {
     }
 
     public void execute() {
+        //Creating instance  of solution class.
+        //The parameter in constructor is first line of the file, which contains key.
         Solution solution = new Solution(scanner.nextLine());
 
         while(scanner.hasNextLine()){

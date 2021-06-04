@@ -26,6 +26,7 @@ public class WordGroup {
         wordsInGroup.add(word);
     }
 
+    //counts how many times letters from key appear in whole group
     private void countOccurrences(){
         for(String word : wordsInGroup){
             for(int i=0; i<word.length(); ++i)
